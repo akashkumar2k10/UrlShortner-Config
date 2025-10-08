@@ -12,6 +12,11 @@ spring:
     console:
       enabled: true
 
+  cloud:
+    openfeign:
+      micrometer:
+        enabled: true
+
 frontend:
   url: http://localhost:4200
 KEY_BASE_URL: http://localhost:8080/

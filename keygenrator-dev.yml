@@ -15,6 +15,11 @@ spring:
     console:
       enabled: true
 
+  cloud:
+    openfeign:
+      micrometer:
+        enabled: true
+
 server:
   port: 8082
   address: 0.0.0.0
