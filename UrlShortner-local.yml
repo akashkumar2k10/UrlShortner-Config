@@ -51,3 +51,9 @@ management:
   zipkin:
     tracing:
       endpoint: http://localhost:9411/api/v2/spans
+
+logging:
+  level:
+    org.springframework.cloud.openfeign: DEBUG
+    io.micrometer.tracing: DEBUG
+    org.springframework.web.client: DEBUG
